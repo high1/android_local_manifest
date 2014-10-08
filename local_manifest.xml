@@ -3,11 +3,15 @@
     <remove-project name="CyanogenMod/android_build" />
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <remove-project name="CyanogenMod/android_frameworks_native" />
+    <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <!--<remove-project name="CyanogenMod/android_vendor_cm" />-->
     <project path="build" name="legaCyMod/android_build" revision="cm-11.0" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
     <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" />
+    <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-4.4" />
+    <!--<project path="vendor/cm" name="legaCyMod/android_vendor_cm" revision="cm-11.0" />-->
     
     <!-- Golfu -->
     <project path="device/htc/golfu" name="high1/android_device_golfu" revision="cm-11.0" />
