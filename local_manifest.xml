@@ -1,22 +1,27 @@
 <manifest>
     <!-- CM replacements -->
-    <remove-project name="CyanogenMod/android_frameworks_av" />
-    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
-    
+    <!-- TeamHackLG hardware_qcom_display-caf -->
     <remove-project name="CyanogenMod/android__hardware_qcom_display-caf" />
     <project path="_hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="cm-11.0" />
     
-    <!-- Golfu -->
+    <!-- legacyMod  frameworks_av -->
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
+    
+    <!-- golfu -->
     <project path="device/htc/golfu" name="high1/android_device_htc_golfu" revision="cm-11.0-ion" />
     <project path="kernel/htc/golfu" name="high1/android_kernel_htc_pico" revision="ion" />
     <!--<project path="vendor/htc/golfu" name="high1/android_vendor_htc_golfu" revision="cm-11.0" />-->
 
-    <!-- FM Radio -->
-    <!--<project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-11.0" /> -->
-
-    <!-- Local projects -->
+    <!-- wifi -->
     <project path="hardware/atheros/wlan" name="Cyanogenmod/android_hardware_atheros_wlan" revision="cm-11.0" />
     
      <!-- TWRP -->
     <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-4.4" />
+    
+    <!-- PhilZ -->
+    <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" revision="cm-11.0" />
+    
+    <!-- FM Radio -->
+    <!-- <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-11.0" /> -->
 </manifest>
