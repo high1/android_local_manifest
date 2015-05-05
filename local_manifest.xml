@@ -9,9 +9,9 @@
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
     
     <!-- golfu -->
-    <project path="device/htc/golfu" name="high1/android_device_htc_golfu" revision="cm-11.0-ion" />
-    <project path="kernel/htc/golfu" name="high1/android_kernel_htc_pico" revision="ion" />
-    <!--<project path="vendor/htc/golfu" name="high1/android_vendor_htc_golfu" revision="cm-11.0" />-->
+    <project path="device/htc/golfu" name="high1/android_device_htc_golfu" revision="cm-11.0" />
+    <project path="kernel/htc/golfu" name="HTCLegacy/android_kernel_htc_pico" revision="cm-11.0" />
+    <project path="vendor/htc/golfu" name="HTCLegacy/android_vendor_htc_golfu" revision="cm-11.0" />
 
     <!-- wifi -->
     <project path="hardware/atheros/wlan" name="Cyanogenmod/android_hardware_atheros_wlan" revision="cm-11.0" />
